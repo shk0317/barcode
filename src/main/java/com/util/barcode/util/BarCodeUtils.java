@@ -20,14 +20,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 生成条形码.
- * <p>
- * Company: 翌飞锐特
- * <p>
+ * 生成条形码
  *
- * @author liyulong
+ * @author shiyunqi
  * @version 1.0.0
- * @Date 2021-12-09 13:50
+ * @Date 2024-03-09 13:50
  * <p>
  **/
 public class BarCodeUtils {
