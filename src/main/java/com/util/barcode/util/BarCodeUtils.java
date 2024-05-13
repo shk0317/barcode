@@ -38,12 +38,13 @@ public class BarCodeUtils {
         // 设置两侧是否留白
         bean.doQuietZone(withQuietZone);
 
-        // 设置条形码高度和宽度
+        // 设置条形码高度
         bean.setBarHeight((double) ObjectUtils.defaultIfNull(height, 9.0D));
+        //设置条形码宽度
         if (width != null) {
             bean.setModuleWidth(width);
         }
-        // 设置文本位置（包括是否显示）
+        // 设置文本位置（包括是否显示文本）
         if (hideText) {
             bean.setMsgPosition(HumanReadablePlacement.HRP_NONE);
         }
