@@ -209,12 +209,4 @@ public class QrCodeUtils {
     public static String decode(String path) throws Exception {
         return QrCodeUtils.decode(new File(path));
     }
-
-    //测试一：
-    public static void main(String[] args) throws Exception {
-        String text = "https://blog.csdn.net/weixin_43763430";
-        String logoPath = "D:\\qrCode\\logo.jpg";
-        String destPath = "D:\\qrCode\\csdn.jpg";
-        QrCodeUtils.encode(text,logoPath,destPath,true);
-    }
 }
