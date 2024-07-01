@@ -82,8 +82,7 @@ public class BarCodeUtils {
             bean.setWideFactor(2);
             bean.doQuietZone(false);
 
-            //Open output file
-
+            //打开输出文件
             try {
                 //Set up the canvas provider for monochrome JPEG output
                 BitmapCanvasProvider canvas = new BitmapCanvasProvider(
