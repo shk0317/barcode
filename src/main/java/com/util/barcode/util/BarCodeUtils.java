@@ -25,7 +25,6 @@ import java.util.Map;
  * @author shiyunqi
  * @version 1.0.0
  * @Date 2024-03-09 13:50
- * <p>
  **/
 public class BarCodeUtils {
     private static final int BLACK = 0xFF000000;
@@ -65,6 +64,7 @@ public class BarCodeUtils {
         return ous.toByteArray();
     }
 
+    //图片转码
     public static byte[] generateBarCode39(String message, Double height, Double width, boolean withQuietZone, boolean hideText){
         ByteArrayOutputStream ous = new ByteArrayOutputStream();
         try {
